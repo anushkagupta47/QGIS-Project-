@@ -1,96 +1,110 @@
 # QGIS Terrain and Network Analysis Project
 
-This repository contains the implementation and analysis of a **Remote Sensing and GIS internship project** performed using **QGIS**.  
-The project focuses on **terrain analysis using DEM data** and **network analysis for police station accessibility** using OpenStreetMap datasets.
+This repository contains the implementation of a **Remote Sensing and GIS internship project** performed using **QGIS**.  
+The project focuses on **terrain analysis using DEM data** and **network analysis for evaluating police station accessibility** using OpenStreetMap datasets.
 
 ---
 
 # Project Overview
 
-Geographic Information Systems (GIS) and Remote Sensing enable spatial analysis of geographic data for decision-making and planning.
+Geographic Information Systems (GIS) and Remote Sensing provide powerful tools for analyzing spatial data and supporting decision-making.
 
-In this project, the following analyses were performed:
+In this project, multiple spatial analyses were performed using **QGIS**, including terrain analysis and road network analysis.
 
-• Terrain analysis using **SRTM Digital Elevation Model (DEM)**  
-• Generation of **Hillshade, Slope, Aspect, and Contours**  
-• **Shortest Path Analysis** using road network data  
-• **Service Area Analysis** for police stations using GIS network analysis  
+The key analyses performed in this project include:
 
-The project demonstrates how GIS can support **urban planning, emergency service accessibility analysis, and infrastructure planning**.
+- Terrain analysis using **SRTM Digital Elevation Model (DEM)**
+- Generation of **Hillshade, Slope, Aspect, and Contours**
+- **Shortest Path Analysis** using road network data
+- **Service Area Analysis** for police stations
+
+These analyses demonstrate how GIS techniques can support **urban planning, infrastructure management, and emergency service accessibility analysis**.
 
 ---
 
 # Tools and Technologies
 
-| Tool | Purpose |
-|-----|------|
-| QGIS 3.40 | Spatial analysis and visualization |
-| OpenStreetMap | Road network, buildings, POI datasets |
-| SRTM DEM | Elevation data for terrain analysis |
+- **QGIS 3.40**
+- **OpenStreetMap (OSM) datasets**
+- **SRTM Digital Elevation Model (DEM)**
 
-QGIS is an open-source geographic information system that allows users to analyze and visualize spatial datasets. :contentReference[oaicite:1]{index=1}
+QGIS was used to perform raster analysis, vector analysis, and network analysis.
 
 ---
 
-# Dataset Used
+# Datasets Used
 
-1. **SRTM DEM Data** – elevation raster dataset  
-2. **OpenStreetMap Road Network** – transportation network  
-3. **Police Station Locations** – point dataset  
-4. **Building Footprints** – urban infrastructure data  
-5. **Points of Interest (POI)** – public facility locations  
+The project uses the following datasets:
+
+| Dataset | Description | Source |
+|-------|-------------|------|
+| DEM Data | Elevation raster dataset | SRTM |
+| Road Network | Transportation network | OpenStreetMap |
+| Police Stations | Location of police stations | OpenStreetMap |
+| Buildings | Building footprints | OpenStreetMap |
+| Points of Interest | Public facility locations | OpenStreetMap |
+
+Due to large file size, the datasets are not included in this repository.  
+They can be downloaded from the following sources:
+
+OpenStreetMap Data  
+https://download.geofabrik.de/
+
+SRTM DEM  
+https://earthexplorer.usgs.gov/
 
 ---
 
 # Methodology
 
-The workflow followed in this project:
+The workflow followed in this project includes the following steps:
 
-### 1 Data Collection
-Spatial datasets were collected from **OpenStreetMap and SRTM sources** and imported into QGIS.
+### 1. Data Collection
+Spatial datasets including DEM data, road networks, buildings, police stations, and points of interest were collected from OpenStreetMap and SRTM sources.
 
-### 2 DEM Processing
-The DEM raster dataset was processed to derive terrain characteristics.
+### 2. DEM Processing
+The DEM raster dataset was imported into QGIS and processed using terrain analysis tools.
 
-### 3 Terrain Analysis
-Generated terrain derivatives:
+### 3. Terrain Analysis
+The following terrain derivatives were generated:
 
 - Hillshade Map
 - Slope Map
 - Aspect Map
 - Contour Lines
 
-These layers help understand terrain morphology and elevation variation.
+These layers help understand terrain morphology and elevation patterns.
 
-### 4 Network Analysis
+### 4. Network Analysis
 
 Two types of network analysis were performed:
 
 **Shortest Path Analysis**
 
-- Determines the optimal route between two locations.
+This analysis determines the most efficient route between two locations using the road network.
 
 **Police Station Service Area Analysis**
 
-- Identifies reachable areas from police stations using road networks.
+This analysis identifies areas reachable from police stations using the road network and helps evaluate accessibility coverage.
 
-### 5 Visualization
-All spatial layers were visualized within QGIS to interpret terrain features and accessibility patterns.
+### 5. Visualization
+
+All generated spatial layers were visualized in QGIS to analyze terrain characteristics and accessibility patterns.
 
 ---
 
 # Results
 
-Key outcomes of the analysis:
+Key outcomes of the analysis include:
 
-• Hillshade visualization improved terrain interpretation  
-• Slope and aspect maps provided terrain orientation and steepness  
-• Contour lines represented elevation variation across the study area  
-• Shortest path analysis identified optimal travel routes  
-• Service area analysis evaluated police station accessibility coverage  
+- Hillshade visualization improves terrain interpretation
+- Slope and aspect maps represent terrain steepness and orientation
+- Contour lines visualize elevation variation
+- Shortest path analysis identifies optimal travel routes
+- Service area analysis evaluates police station coverage and accessibility
 
-These analyses demonstrate the practical applications of **GIS for emergency infrastructure planning and spatial decision-making**.
+These results demonstrate the usefulness of GIS in **urban planning and emergency infrastructure planning**.
 
 ---
 
-# Repository Contents
+# Repository Structure
