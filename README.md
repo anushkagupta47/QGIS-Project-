@@ -5,6 +5,18 @@ The project focuses on **terrain analysis using DEM data** and **network analysi
 
 ---
 
+## Key Insights
+
+- Terrain analysis was performed using **SRTM Digital Elevation Model (DEM)** to understand elevation patterns of the study region.
+- Derived terrain products including **Hillshade, Slope, and Aspect maps** to analyze surface characteristics.
+- Generated **Contour Lines** to represent elevation changes and terrain gradients.
+- Conducted **Shortest Path Network Analysis** on the road network to determine the optimal route between locations.
+- Performed **Service Area Analysis** to evaluate the accessibility of police stations across the study region.
+- Integrated **OpenStreetMap datasets** including roads, buildings, police stations, and points of interest to support spatial analysis.
+- The project demonstrates how **QGIS can be used for terrain modeling and urban accessibility analysis**.
+
+---
+
 # Project Overview
 
 Geographic Information Systems (GIS) and Remote Sensing provide powerful tools for analyzing spatial data and supporting decision-making.
