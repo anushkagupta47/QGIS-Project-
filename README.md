@@ -5,18 +5,6 @@ The project focuses on **terrain analysis using DEM data** and **network analysi
 
 ---
 
-## Key Insights
-
-- Terrain analysis was performed using **SRTM Digital Elevation Model (DEM)** to understand elevation patterns of the study region.
-- Derived terrain products including **Hillshade, Slope, and Aspect maps** to analyze surface characteristics.
-- Generated **Contour Lines** to represent elevation changes and terrain gradients.
-- Conducted **Shortest Path Network Analysis** on the road network to determine the optimal route between locations.
-- Performed **Service Area Analysis** to evaluate the accessibility of police stations across the study region.
-- Integrated **OpenStreetMap datasets** including roads, buildings, police stations, and points of interest to support spatial analysis.
-- The project demonstrates how **QGIS can be used for terrain modeling and urban accessibility analysis**.
-
----
-
 # Project Overview
 
 Geographic Information Systems (GIS) and Remote Sensing provide powerful tools for analyzing spatial data and supporting decision-making.
@@ -31,6 +19,18 @@ The key analyses performed in this project include:
 - **Service Area Analysis** for police stations
 
 These analyses demonstrate how GIS techniques can support **urban planning, infrastructure management, and emergency service accessibility analysis**.
+
+---
+
+## Key Insights
+
+- Terrain analysis was performed using **SRTM Digital Elevation Model (DEM)** to understand elevation patterns of the study region.
+- Derived terrain products including **Hillshade, Slope, and Aspect maps** to analyze surface characteristics.
+- Generated **Contour Lines** to represent elevation changes and terrain gradients.
+- Conducted **Shortest Path Network Analysis** on the road network to determine the optimal route between locations.
+- Performed **Service Area Analysis** to evaluate the accessibility of police stations across the study region.
+- Integrated **OpenStreetMap datasets** including roads, buildings, police stations, and points of interest to support spatial analysis.
+- The project demonstrates how **QGIS can be used for terrain modeling and urban accessibility analysis**.
 
 ---
 
@@ -143,23 +143,19 @@ These results demonstrate the usefulness of GIS in **urban planning and emergenc
 
 # Repository Structure
 
-QGIS-Project
+QGIS_ISL
 │
-├── screenshots
-│   ├── study_area.png
-│   ├── hillshade.png
-│   ├── slope.png
-│   ├── shortest_path.png
-│   └── service_area.png
-│
-├── report
-│   └── Remote_Sensing_GIS_Project_Report.pdf
-│
-├── project
-│   └── qgis_project.qgz
-│
-└── README.md
-
+├── README.md
+├── Remote_Sensing_GIS_Project.qgz
+├── readme.txt
+├── srtm_52_05.hdr
+├── srtm_52_05.tfw
+├── hillshade.png
+├── SRTM .png
+├── Aspect .png
+├── Contours.png
+├── Shortest path.png
+└── Service Area .png
 
 ---
 
